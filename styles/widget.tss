@@ -1,0 +1,42 @@
+"Label": {
+	color: "#222222",
+	top: 10,
+	left: 10,
+	width: Ti.UI.SIZE,
+	height: 30,
+	font: { fontSize:12 }
+},
+"TextField": {
+    borderWidth:1,
+	borderColor: "#ddd",
+	color: "#336699",
+	left: 10,
+	right: 10,
+	width: Ti.UI.FILL,
+	height: '8%'
+},
+"#msgField" : {
+    borderWidth:1,
+	borderColor: "#ddd",
+	color: "#336699",
+	left: 10,
+	right: 10,
+    height:'20%',
+    horizontalWrap: true
+},
+"Switch": {
+	top: 10,
+	right: 10
+},
+"Button": {
+	left: 10,
+	right: 10,
+	width: Ti.UI.FILL,
+	height: 60,
+	style: Titanium.UI.iPhone.SystemButtonStyle.BORDERED
+},
+"ScrollView": {
+    top:"1%",
+    backgroundColor: 'white',
+	layout: "vertical",
+}

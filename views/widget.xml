@@ -1,0 +1,14 @@
+<Alloy>
+    <ScrollView id="sendEmailView">
+        <Label>To:</Label>
+        <TextField id="toField" hintText="myfriend@whateveremail" />
+        <Label>From:</Label>
+        <TextField id="fromField" hintText="me@myemail" />
+        <Label class="formLbl">Subject:</Label>
+        <TextField id="subjectField"/>
+        <Label>Message:</Label>
+        <TextArea id="msgField" />
+        <Button id="sendEmailBtn" class="button" title="Send" />
+        <Button id="cancelBtn" class="button" title="Cancel" />
+    </ScrollView>
+</Alloy>
